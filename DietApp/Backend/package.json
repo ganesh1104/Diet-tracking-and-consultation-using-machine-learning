@@ -1,0 +1,24 @@
+{
+  "name": "model2",
+  "version": "1.0.0",
+  "description": "A wide variety of ingredients, cultures and personal tastes makes decisions about what to eat a great problem. Many diseases that were previously thought of as hereditary are now seen to be connected to biological dysfunction related to nutrition. Being healthy and eating better is something the vast majority of the population wants and doing so usually requires great effort. The working prototype accomplishes a Personalized Diet Recommendation System with the integration of Machine Learning Algorithms to recommend the right food at right time and with the right nutrition, calories, fat, etc.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.5.0",
+    "axios": "^1.2.6",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.3.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1",
+    "zeromq": "^5.3.1"
+  }
+}
